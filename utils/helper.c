@@ -23,8 +23,6 @@ void print_array(int *array, int size){
             printf("%i", array[i]);
         else
             printf("%i, ", array[i]);
-
     }
     printf("]\n");
-
 }
