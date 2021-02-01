@@ -28,4 +28,3 @@ int main () {
     print_array(a, size);
     return 0;
 }
-
