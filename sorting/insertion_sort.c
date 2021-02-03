@@ -36,13 +36,16 @@ void insertion_sort_nonincreasing (int *input, int size){
 }
 
 int main () {
+    //generate random array
     int size = 10;
     int *a = generate_int_array(size);
+
+    printf("### INSERTION-SORT NON DECREASING ORDER ###\n");
     print_array(a, size);
     insertion_sort(a, size);
     print_array(a, size);
 
-    a = generate_int_array(size);
+    printf("### INSERTION-SORT NON INCREASING ORDER ###\n");
     print_array(a, size);
     insertion_sort_nonincreasing(a, size);
     print_array(a, size);
